@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <!-- font-family: 'Josefin Sans', sans-serif; -->
+    <!-- font-family: 'Kumbh Sans', sans-serif; -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container d-flex">
+            <div class="header-logo">
+                <a href="#home" class="logo-link">LOGO</a>
+            </div>
+            <nav class="header-menu d-flex">
+                <a href="#about" class="menu-link">about</a>
+                <a href="#works" class="menu-link">works</a>
+                <a href="#contact" class="menu-link">contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="home">
+            <div class="container">
+                <h1 class="home-title">Frontend Developer</h1>
+                <p class="home-text1"> Final frontend development lesson.  <br>
+                    Reviewed by: <br>
+                    <span class="text-list">
+                    <a href="https://uk.wikipedia.org/wiki/HTML" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/128px-HTML5_logo_and_wordmark.svg.png" width="20px" height="20px" alt=""> Html</a>    <br>
+                    <a href="https://uk.wikipedia.org/wiki/CSS" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="20px" height="20px" alt=""> Css</a>  <br>
+                    <a href="https://uk.wikipedia.org/wiki/JavaScript" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" width="20px" height="20px" alt=""> JavaScript</a>  
+                    </span>           
+                </p>
+                <p class="home-text2">Front-end web development, also known as client-side development 
+                    is the practice of producing HTML, CSS and JavaScript for a website or Web Application 
+                    so that a user can see and interact with them directly. The challenge associated with
+                    front end development is that the tools and techniques used to create the front end of 
+                    a website change constantly and so the developer needs to constantly be aware of how 
+                    the field is developing.
+                </p>
+                <h2 class="home-name"> Artem Chorniy</h2>
+            </div>
+        </section>
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="about-title">About me:</h2>
+                <p class="about-text"> 
+                    I'm studing at <a href="https://lpnu.ua/en" target="_blank">Lviv National Polytechnic University</a> .
+                </p>
+            </div>
+        </section>
+        <section class="section" id="works">
+            <div class="container">
+                <h2 class="works-title">My works:</h2>
+                <p class="works-text">
+                    My work will be here in the <span id="futureId">FUTURE</span> .
+                </p>
+            </div>
+        </section>
+        <section class="section" id="contact">
+           <!-- <h2 class="contact-title">Contact</h2> 
+           <p class="contact-text"> 
+                <span class="contact-info">Phone number</span> <br>
+                +38050876543 <br>
+                <span class="contact-info">Email</span><br>
+                artem.chorniy111@gmail.com
+           </p> -->
+           <div class="contact-text">
+           <div class="row">
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Ukraine</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something" style="height:170px"></textarea>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+        </section>
+    </main>
+
+
+    
+</body>
+</html>
